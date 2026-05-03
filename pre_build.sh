@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Путь к файлу внутри дерева исходников Padavan
-OPTION_FILE="trunk/linux-3.4.x/drivers/usb/serial/option.c"
+OPTION_FILE="/__w/padavan-builder/padavan-builder/padavan-ng/trunk/linux-3.4.x/drivers/usb/serial/option.c"
 
 # Проверяем, существует ли файл (путь может зависеть от структуры репозитория в builder)
 if [ -f "$OPTION_FILE" ]; then
